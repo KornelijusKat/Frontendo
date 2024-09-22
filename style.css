@@ -1,0 +1,27 @@
+header{
+    background-color: blanchedalmond;
+}
+article:nth-child(2n+2){
+    background-color: blue;
+}
+ul li ul li{
+    background-color: brown;
+}
+aside ul li:nth-last-child(2){
+    background-color: chocolate;
+}
+article:nth-child(even) h2::before{
+    content: "start";
+}
+nav a:hover{
+    color:green
+}
+aside ul li:first-child {
+    color: blue; 
+    font-weight: bold; 
+}
+
+aside ul li:last-child {
+    color: red; 
+    font-style: italic; 
+}
